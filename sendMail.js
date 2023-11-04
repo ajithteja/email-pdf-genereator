@@ -17,7 +17,7 @@ exports.sendMail = async (email, subject, html, filename, pdfFilePath) => {
             name: "IBC",
             address: process.env.EMAIL_FROM_ADDRESS
         },
-        to: `${email}, rajesh@ibc.media`,
+        to: `${email}, ajithtejag@gmail.com`,
         subject: subject,
         html: html,
         attachments: [
